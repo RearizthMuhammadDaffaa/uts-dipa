@@ -1,0 +1,20 @@
+{
+  "name":"Dipa Grosir",
+  "short_name":"Dipa Grosir",
+  "start_url":".",
+  "backgroun_color":"#f6dcb1",
+  "theme_color":"#009578",
+  "display":"standalone",
+  "icons":[
+    {
+      "src":"assets/images/android-chrome-512x512.png",
+      "sizes":"192x192",
+      "type":"image/png"
+    },
+    {
+      "src":"assets/images/android-chrome-512x512.png",
+      "sizes":"512x512",
+      "type":"image/png"
+    }   
+  ]
+}

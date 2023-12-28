@@ -1,0 +1,145 @@
+
+
+.card {
+  height: 240px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.card .card-body{
+  height: 70px;
+  
+}
+
+.card .card-body li {
+  font-size: 0.7rem;
+}
+.card .card-body li span {
+  font-weight: bold;
+}
+.card img{
+  width: 70px;
+  margin-top: 10px;
+}
+
+.card button {
+  font-size: 0.5rem;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.sidecart{
+  width: 320px;
+  min-width: 320px;
+  height: 100vh;
+  position: fixed;
+  top: 0px;
+  overflow:auto !important;
+  right: -320px;
+  z-index: 9000;
+  transition: 0.2s ease;
+}
+
+
+
+.open-cart{
+  right: 0px !important;
+}
+.open-cart:before{
+  content: '';
+  position: fixed;
+  top: 0px;
+  width: 100vw;
+  height: 100vh;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  pointer-events: none;
+  background-color: black;
+  opacity: 0.5;
+  z-index: -1;
+}
+
+.product-quantity{
+  position: relative;
+}
+
+.product-quantity:after{
+  white-space: nowrap;
+  position: absolute;
+  z-index: 10;
+  margin-left: 2px;
+}
+
+.sidecart-price > div{
+  margin: auto;
+  width: 100%;
+  white-space: nowrap;
+}
+
+.navbar{
+  position: sticky;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+}
+#container{
+  margin-top: 200px;
+}
+
+#form-beli{
+  width: 50%;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+#card-product{
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  padding: 20px;
+  margin-top: 20px;
+  
+
+}
+.card-product{
+  display: flex;
+  justify-content: center;
+}
+.fa-plus,.fa-minus,.cart-icon,.remover{
+  cursor: pointer;
+}
+
+.btn-container {
+  width: 100%;
+ 
+}
+#row-customer{
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+.card-container{
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.card-user{
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  display: flex;
+  justify-content: center;
+  height: 280px;
+  margin-bottom: 10px;
+}
+
+.form-select{
+  margin-top: 40px;
+  width: 40%;
+  height: 35px;
+}
+
+.none{
+  display: none;
+}
